@@ -1,0 +1,353 @@
+/* ================================
+   BASE RESUME STYLES
+================================ */
+.resume {
+  width: 210mm;
+  min-height: 297mm;
+  background: #ffffff;
+  color: #1a1a1a;
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-size: 10pt;
+  line-height: 1.5;
+  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 20px 60px rgba(0,0,0,0.15);
+  box-sizing: border-box;
+}
+
+/* ================================
+   MODERN TEMPLATE
+================================ */
+.modern-template {
+  display: flex;
+  flex-direction: column;
+}
+
+.modern-header {
+  background: linear-gradient(135deg, #1e1b4b 0%, #312e81 60%, #4f46e5 100%);
+  color: white;
+  padding: 28px 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.modern-name {
+  font-size: 26pt;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+  line-height: 1.1;
+  color: white;
+  margin: 0;
+}
+
+.modern-role {
+  font-size: 11pt;
+  color: rgba(255,255,255,0.75);
+  margin-top: 4px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.modern-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 8.5pt;
+  color: rgba(255,255,255,0.85);
+  text-align: right;
+}
+
+.modern-body {
+  display: flex;
+  flex: 1;
+}
+
+.modern-sidebar {
+  width: 200px;
+  flex-shrink: 0;
+  background: #f8f7ff;
+  padding: 24px 18px;
+  border-right: 1px solid #e8e6ff;
+}
+
+.modern-main {
+  flex: 1;
+  padding: 24px 28px;
+}
+
+.sidebar-section-title {
+  font-size: 8pt;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #4f46e5;
+  margin-bottom: 10px;
+  padding-bottom: 4px;
+  border-bottom: 2px solid #e0e0ff;
+}
+
+.main-section-title {
+  font-size: 11pt;
+  font-weight: 700;
+  color: #1e1b4b;
+  margin-bottom: 12px;
+  padding-bottom: 6px;
+  border-bottom: 2px solid #4f46e5;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.skill-tag {
+  background: #ede9fe;
+  color: #4338ca;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 7.5pt;
+  font-weight: 600;
+}
+
+.skill-tag-soft {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+.resume-section {
+  margin-bottom: 16px;
+}
+
+.edu-item, .cert-item {
+  margin-bottom: 12px;
+  font-size: 8.5pt;
+}
+.edu-item strong, .cert-item strong {
+  font-size: 9pt;
+  color: #1e1b4b;
+}
+.edu-item p, .cert-item p { color: #555; margin: 1px 0; }
+
+.meta-text { color: #777; font-size: 8pt; }
+
+.summary-text {
+  font-size: 9.5pt;
+  color: #333;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.exp-item { margin-bottom: 14px; }
+.exp-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 4px;
+}
+.exp-role { font-size: 10.5pt; font-weight: 700; color: #1e1b4b; }
+.exp-company { font-size: 9pt; color: #555; margin-top: 1px; }
+.exp-date { font-size: 8.5pt; color: #4f46e5; font-weight: 600; white-space: nowrap; flex-shrink: 0; }
+.exp-desc { font-size: 9pt; color: #444; margin-top: 4px; }
+
+.proj-item { margin-bottom: 12px; }
+.proj-header { display: flex; justify-content: space-between; align-items: flex-start; }
+.proj-title { font-size: 10pt; font-weight: 700; color: #1e1b4b; }
+.proj-link { font-size: 8pt; color: #4f46e5; }
+.proj-tech { font-size: 8pt; color: #4f46e5; margin: 2px 0; font-weight: 600; }
+.proj-desc { font-size: 9pt; color: #444; margin-top: 3px; }
+
+.bullet-points {
+  margin: 5px 0 0 14px;
+  padding: 0;
+  font-size: 9pt;
+  color: #333;
+}
+.bullet-points li { margin-bottom: 3px; line-height: 1.5; }
+
+/* ================================
+   PROFESSIONAL TEMPLATE
+================================ */
+.professional-template {
+  padding: 0;
+}
+
+.pro-header {
+  text-align: center;
+  padding: 28px 40px 20px;
+  border-bottom: 3px solid #1a1a2e;
+}
+
+.pro-name {
+  font-size: 24pt;
+  font-weight: 800;
+  color: #1a1a2e;
+  letter-spacing: -0.5px;
+  margin: 0 0 3px;
+}
+
+.pro-role {
+  font-size: 11pt;
+  color: #4f46e5;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 0 0 10px;
+}
+
+.pro-contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4px 16px;
+  font-size: 8.5pt;
+  color: #555;
+}
+.pro-contact span { display: inline-flex; align-items: center; gap: 4px; }
+
+.pro-body { padding: 20px 40px; }
+
+.pro-section { margin-bottom: 14px; }
+
+.pro-section-title {
+  font-size: 10pt;
+  font-weight: 800;
+  color: #1a1a2e;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.pro-section-bar {
+  display: inline-block;
+  width: 28px;
+  height: 3px;
+  background: #4f46e5;
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+
+.pro-summary {
+  font-size: 9.5pt;
+  color: #333;
+  line-height: 1.6;
+  text-align: justify;
+  padding-left: 38px;
+}
+
+.pro-exp-item { margin-bottom: 12px; padding-left: 38px; }
+.pro-exp-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 4px;
+}
+.pro-exp-role { font-weight: 700; font-size: 10pt; color: #1a1a2e; }
+.pro-exp-company { font-size: 10pt; color: #333; }
+.pro-exp-loc { font-size: 9pt; color: #666; }
+.pro-exp-date { font-size: 8.5pt; color: #4f46e5; font-weight: 600; white-space: nowrap; flex-shrink: 0; }
+.pro-sep { color: #999; margin: 0 2px; }
+.pro-exp-desc { font-size: 9pt; color: #444; margin-top: 4px; }
+
+.pro-bullets {
+  margin: 5px 0 0 14px;
+  font-size: 9pt;
+  color: #333;
+}
+.pro-bullets li { margin-bottom: 3px; line-height: 1.5; }
+
+.pro-two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+
+.pro-edu-item { margin-bottom: 10px; font-size: 9pt; }
+.pro-cert-item { margin-bottom: 6px; font-size: 9pt; }
+.pro-skill-row { margin-bottom: 6px; font-size: 9pt; }
+.pro-skill-row strong { color: #1a1a2e; }
+
+.pro-proj-item { margin-bottom: 10px; font-size: 9pt; }
+.pro-proj-item strong { font-size: 9.5pt; color: #1a1a2e; }
+
+/* ================================
+   MINIMAL TEMPLATE
+================================ */
+.minimal-template {
+  padding: 36px 44px;
+}
+
+.min-header { margin-bottom: 20px; }
+
+.min-name {
+  font-size: 22pt;
+  font-weight: 800;
+  color: #111;
+  margin: 0 0 3px;
+  letter-spacing: -0.5px;
+}
+
+.min-role {
+  font-size: 10pt;
+  color: #555;
+  margin: 0 0 10px;
+  font-weight: 400;
+}
+
+.min-contact {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 12px;
+  font-size: 8.5pt;
+  color: #555;
+  margin-bottom: 14px;
+}
+.min-contact-item::after { content: '  ·'; margin-left: 12px; color: #ccc; }
+.min-contact-item:last-child::after { content: ''; }
+
+.min-divider {
+  height: 2px;
+  background: #111;
+  width: 100%;
+}
+
+.min-section {
+  margin-bottom: 16px;
+  padding-top: 12px;
+  border-top: 1px solid #eee;
+}
+.min-section:first-of-type { border-top: none; }
+
+.min-section-title {
+  font-size: 8.5pt;
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #111;
+  margin: 0 0 8px;
+}
+
+.min-item { margin-bottom: 10px; }
+.min-inline { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+
+.min-item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 8px;
+}
+.min-bold { font-weight: 700; font-size: 10pt; color: #111; }
+.min-company { font-size: 9.5pt; color: #444; }
+.min-date { font-size: 8.5pt; color: #777; white-space: nowrap; flex-shrink: 0; }
+.min-tech { font-size: 8.5pt; color: #666; font-style: italic; margin: 2px 0; }
+.min-text { font-size: 9pt; color: #333; line-height: 1.55; }
+.min-mt { margin-top: 3px; }
+.min-bullets {
+  margin: 5px 0 0 14px;
+  padding: 0;
+  font-size: 9pt;
+  color: #333;
+}
+.min-bullets li { margin-bottom: 2px; line-height: 1.5; }
